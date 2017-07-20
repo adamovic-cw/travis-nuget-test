@@ -3,7 +3,7 @@
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
         <id>Travis.Nuget.Example</id>
-        <title>Travis NuGet Example</title>
+        <title>willthishelp</title>
 
         <!-- The package version number that is used when resolving dependencies -->
         <version>$version$</version>
@@ -24,15 +24,15 @@
 
         <!-- Dependencies are automatically installed when the package is installed -->
         <dependencies>
-            <group targetFramework="net45" >
+         
               <dependency id="RestSharp" version="105.2.3" />
-            </group>
+
         </dependencies>
     </metadata>
     <files>
 
         <!-- A readme.txt will be displayed when the package is installed -->
-        <file src="../bin/Travis.Nuget.Example.dll" target="lib/net45" />
-        <file src="../bin/Travis.Nuget.Example.xml" target="lib/net45" />
+        <file src="../bin/Travis.Nuget.Example.dll" target="lib" />
+        <file src="../bin/Travis.Nuget.Example.xml" target="lib" />
     </files>
 </package>
