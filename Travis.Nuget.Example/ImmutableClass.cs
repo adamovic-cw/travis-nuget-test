@@ -2,10 +2,10 @@
 
 namespace Travis.Nuget.Example
 {
-    /// <summary>
-    /// Test class.
-    /// </summary>
-    public class ImmutableClass
+	/// <summary>
+	/// Test class.
+	/// </summary>
+	public class ImmutableClass
     {
 
         public ImmutableClass(string name)
