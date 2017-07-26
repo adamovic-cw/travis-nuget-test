@@ -7,7 +7,7 @@ echo "[INFO] remove Travis.Nuget.Example.Test/bin/Debug/Travis.Nuget.Example.dll
 rm Travis.Nuget.Example.Test/bin/Debug/Travis.Nuget.Example.Test.dll 2> /dev/null
 
 echo "[INFO] install NUnit runners via NuGet"
-wget -nc https://nuget.org/nuget.exe
+wget -nc https://dist.nuget.org/win-x86-commandline/v4.1.0/nuget.exe;
 mozroots --import --sync
 mono nuget.exe install Travis.Nuget.Example.Test/packages.config -o packages
 
