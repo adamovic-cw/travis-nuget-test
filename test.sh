@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-wget -nc https://nuget.org/nuget.exe
+wget -nc https://dist.nuget.org/win-x86-commandline/v4.1.0/nuget.exe;
 mozroots --import --sync
 
 echo "[INFO] remove Travis.Nuget.Example.Test/bin/Debug/Travis.Nuget.Example.dll"

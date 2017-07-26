@@ -17,6 +17,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <developmentDependency>false</developmentDependency>
 
+        <projectUrl>https://github.com/adamovic-cw/travis-nuget-test</projectUrl>
         <!-- The description can be used in package manager UI. Note that the
              nuget.org gallery uses information you add in the portal. -->
         <description>The example project for testing deployment to nuget using travis-ci.</description>
@@ -24,9 +25,7 @@
 
         <!-- Dependencies are automatically installed when the package is installed -->
         <dependencies>
-         
-              <dependency id="RestSharp" version="105.2.3" />
-
+            <dependency id="RestSharp" version="105.2.3" />
         </dependencies>
     </metadata>
     <files>
